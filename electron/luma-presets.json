@@ -1,0 +1,2375 @@
+[
+  {
+    "name": "Casual",
+    "description": "Everyday play. Volumetric rays, true darkness, player shadows, ambient occlusion and the Luma sky, with dust and fireflies in the air and a light grade on top.",
+    "settings": {
+      "configVersion": 10,
+      "master": true,
+      "effects": {
+        "fxaa": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "quality": 1
+          }
+        },
+        "sharpen": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.65
+          }
+        },
+        "motionBlur": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.2
+          }
+        },
+        "dof": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "focusDistance": 27.5,
+            "strength": 0.5,
+            "bokehRadius": 17,
+            "autoFocus": 1,
+            "focusSpeed": 1,
+            "nearStrength": 0,
+            "bokehGamma": 2.2
+          }
+        },
+        "distanceBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "startDistance": 31,
+            "endDistance": 66,
+            "maxBlur": 5
+          }
+        },
+        "ssgi": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "radius": 1.75,
+            "colorBleed": 0.15,
+            "sharpness": 0.5,
+            "quality": "Low",
+            "emitters": 1
+          }
+        },
+        "trueDarkness": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.6,
+            "reach": 12,
+            "floor": 0.12,
+            "enclosure": 0.55
+          }
+        },
+        "sunMoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "sunBrightness": 2,
+            "sunSize": 0.5,
+            "sunTint": "#FFE8C0",
+            "moonBrightness": 1.5,
+            "moonSize": 0.9,
+            "moonTint": "#BFD4FF",
+            "glowFalloff": 0.5,
+            "position": "Follow Game",
+            "timeOfDay": 10,
+            "sunIntensity": 1.7,
+            "sunWarmth": 0.1,
+            "ambientIntensity": 1.1,
+            "shadowStrength": 1,
+            "surfaceLight": 0.35,
+            "playerShade": 0.5
+          }
+        },
+        "nightSky": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "customSkies": "On",
+            "starDensity": 0.5,
+            "starBrightness": 0.9,
+            "starSize": 0.35,
+            "horizonWarmth": 0.5,
+            "replaceWhen": "Always",
+            "method": "Auto",
+            "strength": 1,
+            "backdropDistance": 300,
+            "dayZenith": "#165BFE",
+            "dayHorizon": "#9CC8EE",
+            "daySaturation": 1.15,
+            "dayHue": 0.5,
+            "cloudCoverage": 0.55,
+            "cloudDensity": 1,
+            "cloudSpeed": 0.3,
+            "cloudHeight": 0.7,
+            "cloudThickness": 1,
+            "cloudSoftness": 1,
+            "cloudTint": "#FFFFFF",
+            "cloudSunGlow": 0.5,
+            "cloudShadowStrength": 0,
+            "cloudShadowSoftness": 0.5,
+            "cloudResolution": "Full"
+          }
+        },
+        "sunlight": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.05,
+            "rayRelief": 0.7,
+            "reach": 41,
+            "density": 0.15,
+            "warmth": 0.65,
+            "clarity": 0.35,
+            "rayThickness": 0.5,
+            "rayShimmer": 0,
+            "rayAngle": 0,
+            "sideGlow": 0.5,
+            "quality": "Medium"
+          }
+        },
+        "lensFlare": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Both",
+            "intensity": 0.45,
+            "streakLength": 0.5,
+            "streakCount": 12,
+            "dispersion": 0.35,
+            "ghostStrength": 0.35,
+            "shimmer": 0.3,
+            "coverEase": 3
+          }
+        },
+        "ssr": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Always",
+            "intensity": 0.15,
+            "maxDistance": 7,
+            "quality": "High",
+            "blur": 0,
+            "surfaceAwareness": 0,
+            "metalSharpness": 1
+          }
+        },
+        "lumaRain": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "fallSpeed": 1,
+            "dropSize": 1,
+            "wind": 0.2,
+            "storm": "Off",
+            "lightning": 1,
+            "lightningSpeed": 1,
+            "lightningRandomness": 0.5
+          }
+        },
+        "haze": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.08,
+            "startDistance": 17,
+            "heightFalloff": 0.35,
+            "sunScatter": 0.5,
+            "wispiness": 0,
+            "skyVeil": 0.25,
+            "maxBrightness": 0.5,
+            "tint": "#cdfefd"
+          }
+        },
+        "underwater": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "distortion": 0.5,
+            "blurAmount": 0.4,
+            "fogDensity": 0.55,
+            "caustics": 0.55
+          }
+        },
+        "dustMotes": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "driftSpeed": 1,
+            "brightness": 0.2,
+            "shape": "Dot"
+          }
+        },
+        "fireflies": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.4,
+            "brightness": 0.6,
+            "wanderSpeed": 0.35,
+            "shape": "Dot"
+          }
+        },
+        "embers": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "riseSpeed": 0.5,
+            "brightness": 0.7,
+            "glow": 0.5,
+            "shape": "Dot"
+          }
+        },
+        "fallingLeaves": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "fallSpeed": 0.4,
+            "size": 0.5,
+            "leafType": "Mixed",
+            "shape": "Dot"
+          }
+        },
+        "ssao": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.05,
+            "radius": 0.1,
+            "power": 1.5,
+            "quality": "High"
+          }
+        },
+        "bloom": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.15,
+            "threshold": 0.1,
+            "scatter": 0.2,
+            "highlights": 0,
+            "tint": "#ffe7cc"
+          }
+        },
+        "filmLook": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "look": "Technicolor",
+            "strength": 0.6
+          }
+        },
+        "drama": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.25
+          }
+        },
+        "letterbox": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "ratio": 2.19
+          }
+        },
+        "vignette": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.8,
+            "smoothness": 0.6
+          }
+        },
+        "grain": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.08,
+            "speed": 24
+          }
+        },
+        "chromatic": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.3
+          }
+        },
+        "tonemap": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "ACES"
+          }
+        },
+        "colorAdjust": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "exposure": 0.05,
+            "whites": 0.16,
+            "blacks": 0,
+            "contrast": 0.02,
+            "saturation": 0.02,
+            "vibrance": 0.56
+          }
+        },
+        "whiteBalance": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "warmth": 0.36,
+            "tint": -0.6
+          }
+        },
+        "adaptive": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "strength": 0.7,
+            "speed": 4
+          }
+        },
+        "halftone": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.85,
+            "scale": 90,
+            "colour": 0
+          }
+        },
+        "cartoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.9,
+            "steps": 5,
+            "outline": 0.5
+          }
+        },
+        "scanlines": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.5,
+            "count": 400,
+            "grille": 0
+          }
+        },
+        "pixelate": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 1,
+            "size": 140,
+            "levels": 1
+          }
+        },
+        "birds": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "altitude": 1,
+            "speed": 1
+          }
+        },
+        "butterflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "bees": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "clouds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "coverage": 0.4,
+            "density": 0.5,
+            "speed": 0.3,
+            "height": 0.5,
+            "thickness": 0.5,
+            "softness": 0.5,
+            "tint": "#FFFFFF",
+            "sunGlow": 0.5,
+            "resolution": "Full",
+            "shadowStrength": 0,
+            "shadowSoftness": 0.5
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Comp",
+    "description": "Stripped for competitive play. Almost everything off - just a touch of colour grading and a few dust motes, so nothing moves that you did not expect.",
+    "settings": {
+      "configVersion": 10,
+      "master": true,
+      "vrAll": true,
+      "effects": {
+        "fxaa": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "quality": 0.55
+          }
+        },
+        "sharpen": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.65
+          }
+        },
+        "motionBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.2
+          }
+        },
+        "dof": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "focusDistance": 27.5,
+            "strength": 0.5,
+            "bokehRadius": 17,
+            "autoFocus": 1,
+            "focusSpeed": 1,
+            "nearStrength": 0,
+            "bokehGamma": 2.2
+          }
+        },
+        "distanceBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "startDistance": 31,
+            "endDistance": 66,
+            "maxBlur": 5
+          }
+        },
+        "ssgi": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "radius": 1.75,
+            "colorBleed": 0.15,
+            "sharpness": 0.5,
+            "quality": "Low",
+            "emitters": 1
+          }
+        },
+        "trueDarkness": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.6,
+            "reach": 12,
+            "floor": 0.12,
+            "enclosure": 0.55
+          }
+        },
+        "sunMoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "sunBrightness": 2,
+            "sunSize": 0.5,
+            "sunTint": "#FFE8C0",
+            "moonBrightness": 1.5,
+            "moonSize": 0.9,
+            "moonTint": "#BFD4FF",
+            "glowFalloff": 0.5,
+            "position": "Follow Game",
+            "timeOfDay": 10,
+            "sunIntensity": 1.7,
+            "sunWarmth": 0.1,
+            "ambientIntensity": 1.1,
+            "shadowStrength": 1,
+            "surfaceLight": 0.35,
+            "playerShade": 0.5
+          }
+        },
+        "nightSky": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "customSkies": "On",
+            "starDensity": 0.5,
+            "starBrightness": 0.9,
+            "starSize": 0.35,
+            "horizonWarmth": 0.5,
+            "replaceWhen": "Always",
+            "method": "Auto",
+            "strength": 1,
+            "backdropDistance": 300,
+            "dayZenith": "#165BFE",
+            "dayHorizon": "#9CC8EE",
+            "daySaturation": 1.15,
+            "dayHue": 0.5,
+            "cloudCoverage": 0.55,
+            "cloudDensity": 1,
+            "cloudSpeed": 1,
+            "cloudHeight": 0.7,
+            "cloudThickness": 1,
+            "cloudSoftness": 1,
+            "cloudTint": "#FFFFFF",
+            "cloudSunGlow": 0.5,
+            "cloudShadowStrength": 0,
+            "cloudShadowSoftness": 0.5,
+            "cloudResolution": "Full"
+          }
+        },
+        "sunlight": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.05,
+            "rayRelief": 0.7,
+            "reach": 41,
+            "density": 0.15,
+            "warmth": 0.65,
+            "clarity": 0.35,
+            "rayThickness": 0.5,
+            "rayShimmer": 0,
+            "rayAngle": 0,
+            "sideGlow": 0.5,
+            "quality": "Medium"
+          }
+        },
+        "lensFlare": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Both",
+            "intensity": 0.45,
+            "streakLength": 0.5,
+            "streakCount": 12,
+            "dispersion": 0.35,
+            "ghostStrength": 0.35,
+            "shimmer": 0.3,
+            "coverEase": 3
+          }
+        },
+        "ssr": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Always",
+            "intensity": 0.15,
+            "maxDistance": 7,
+            "quality": "High",
+            "blur": 0,
+            "surfaceAwareness": 0,
+            "metalSharpness": 1
+          }
+        },
+        "lumaRain": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "fallSpeed": 1,
+            "dropSize": 1,
+            "wind": 0.2,
+            "storm": "Off",
+            "lightning": 1,
+            "lightningSpeed": 1,
+            "lightningRandomness": 0.5
+          }
+        },
+        "haze": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.08,
+            "startDistance": 17,
+            "heightFalloff": 0.35,
+            "sunScatter": 0.5,
+            "wispiness": 0,
+            "skyVeil": 0.25,
+            "maxBrightness": 0.5,
+            "tint": "#cdfefd"
+          }
+        },
+        "underwater": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "distortion": 0.5,
+            "blurAmount": 0.4,
+            "fogDensity": 0.55,
+            "caustics": 0.55
+          }
+        },
+        "dustMotes": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1.65,
+            "size": 0.8,
+            "driftSpeed": 0.7,
+            "brightness": 0.2,
+            "shape": "Dot"
+          }
+        },
+        "fireflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.4,
+            "brightness": 0.6,
+            "wanderSpeed": 0.35,
+            "shape": "Dot"
+          }
+        },
+        "embers": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "riseSpeed": 0.5,
+            "brightness": 0.7,
+            "glow": 0.5,
+            "shape": "Dot"
+          }
+        },
+        "fallingLeaves": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "fallSpeed": 0.4,
+            "size": 0.5,
+            "leafType": "Mixed",
+            "shape": "Dot"
+          }
+        },
+        "ssao": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.4,
+            "radius": 0.4,
+            "power": 1.5,
+            "quality": "High"
+          }
+        },
+        "bloom": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.15,
+            "threshold": 0.1,
+            "scatter": 0.2,
+            "highlights": 0,
+            "tint": "#ffe7cc"
+          }
+        },
+        "filmLook": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "look": "DPX",
+            "strength": 0.55
+          }
+        },
+        "drama": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.3
+          }
+        },
+        "letterbox": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "ratio": 2.19
+          }
+        },
+        "vignette": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.8,
+            "smoothness": 0.6
+          }
+        },
+        "grain": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.66,
+            "speed": 38
+          }
+        },
+        "chromatic": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.3
+          }
+        },
+        "tonemap": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Neutral"
+          }
+        },
+        "colorAdjust": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "exposure": 0,
+            "whites": 1,
+            "blacks": 0.02,
+            "contrast": 0.08,
+            "saturation": -0.12,
+            "vibrance": 0.5
+          }
+        },
+        "whiteBalance": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "warmth": -0.14,
+            "tint": -0.68
+          }
+        },
+        "adaptive": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "strength": 0.35,
+            "speed": 9
+          }
+        },
+        "halftone": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.85,
+            "scale": 90,
+            "colour": 0
+          }
+        },
+        "cartoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.9,
+            "steps": 5,
+            "outline": 0.5
+          }
+        },
+        "scanlines": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.5,
+            "count": 400,
+            "grille": 0
+          }
+        },
+        "pixelate": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 1,
+            "size": 140,
+            "levels": 1
+          }
+        },
+        "birds": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "altitude": 1,
+            "speed": 1
+          }
+        },
+        "butterflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "bees": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "clouds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "coverage": 0.4,
+            "density": 0.5,
+            "speed": 0.3,
+            "height": 0.5,
+            "thickness": 0.5,
+            "softness": 0.5,
+            "tint": "#FFFFFF",
+            "sunGlow": 0.5,
+            "resolution": "Full",
+            "shadowStrength": 0,
+            "shadowSoftness": 0.5
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Movie",
+    "description": "Cinematic. Film look, drama, letterbox bars, vignette and grain over volumetric rays and the Luma sky, graded warm.",
+    "settings": {
+      "configVersion": 10,
+      "master": true,
+      "effects": {
+        "fxaa": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "quality": 1
+          }
+        },
+        "sharpen": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.65
+          }
+        },
+        "motionBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.2
+          }
+        },
+        "dof": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "focusDistance": 27.5,
+            "strength": 0.5,
+            "bokehRadius": 17,
+            "autoFocus": 1,
+            "focusSpeed": 1,
+            "nearStrength": 0,
+            "bokehGamma": 2.2
+          }
+        },
+        "distanceBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "startDistance": 31,
+            "endDistance": 66,
+            "maxBlur": 5
+          }
+        },
+        "ssgi": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "radius": 1.75,
+            "colorBleed": 0.15,
+            "sharpness": 0.5,
+            "quality": "Low",
+            "emitters": 1
+          }
+        },
+        "trueDarkness": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.6,
+            "reach": 12,
+            "floor": 0.12,
+            "enclosure": 0.55
+          }
+        },
+        "sunMoon": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "sunBrightness": 2,
+            "sunSize": 0.5,
+            "sunTint": "#FFE8C0",
+            "moonBrightness": 1.5,
+            "moonSize": 0.9,
+            "moonTint": "#BFD4FF",
+            "glowFalloff": 0.5,
+            "position": "Follow Game",
+            "timeOfDay": 10,
+            "sunIntensity": 1.7,
+            "sunWarmth": 0.1,
+            "ambientIntensity": 1.1,
+            "shadowStrength": 1,
+            "surfaceLight": 0.35,
+            "playerShade": 0.5
+          }
+        },
+        "nightSky": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "customSkies": "On",
+            "starDensity": 0.5,
+            "starBrightness": 0.9,
+            "starSize": 0.35,
+            "horizonWarmth": 0.5,
+            "replaceWhen": "Always",
+            "method": "Auto",
+            "strength": 1,
+            "backdropDistance": 300,
+            "dayZenith": "#165BFE",
+            "dayHorizon": "#9CC8EE",
+            "daySaturation": 1.15,
+            "dayHue": 0.5,
+            "cloudCoverage": 0.55,
+            "cloudDensity": 1,
+            "cloudSpeed": 1,
+            "cloudHeight": 0.7,
+            "cloudThickness": 1,
+            "cloudSoftness": 1,
+            "cloudTint": "#FFFFFF",
+            "cloudSunGlow": 0.5,
+            "cloudShadowStrength": 0,
+            "cloudShadowSoftness": 0.5,
+            "cloudResolution": "Full"
+          }
+        },
+        "sunlight": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.05,
+            "rayRelief": 0.7,
+            "reach": 41,
+            "density": 0.15,
+            "warmth": 0.65,
+            "clarity": 0.35,
+            "rayThickness": 0.5,
+            "rayShimmer": 0,
+            "rayAngle": 0,
+            "sideGlow": 0.5,
+            "quality": "Medium"
+          }
+        },
+        "lensFlare": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Both",
+            "intensity": 0.45,
+            "streakLength": 0.5,
+            "streakCount": 12,
+            "dispersion": 0.35,
+            "ghostStrength": 0.35,
+            "shimmer": 0.3,
+            "coverEase": 3
+          }
+        },
+        "ssr": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Always",
+            "intensity": 0.15,
+            "maxDistance": 7,
+            "quality": "High",
+            "blur": 0,
+            "surfaceAwareness": 0,
+            "metalSharpness": 1
+          }
+        },
+        "lumaRain": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "fallSpeed": 1,
+            "dropSize": 1,
+            "wind": 0.2,
+            "storm": "Off",
+            "lightning": 1,
+            "lightningSpeed": 1,
+            "lightningRandomness": 0.5
+          }
+        },
+        "haze": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.08,
+            "startDistance": 17,
+            "heightFalloff": 0.35,
+            "sunScatter": 0.5,
+            "wispiness": 0,
+            "skyVeil": 0.25,
+            "maxBrightness": 0.5,
+            "tint": "#cdfefd"
+          }
+        },
+        "underwater": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "distortion": 0.5,
+            "blurAmount": 0.4,
+            "fogDensity": 0.55,
+            "caustics": 0.55
+          }
+        },
+        "dustMotes": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "driftSpeed": 1,
+            "brightness": 0.2,
+            "shape": "Dot"
+          }
+        },
+        "fireflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.4,
+            "brightness": 0.6,
+            "wanderSpeed": 0.35,
+            "shape": "Dot"
+          }
+        },
+        "embers": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "riseSpeed": 0.5,
+            "brightness": 0.7,
+            "glow": 0.5,
+            "shape": "Dot"
+          }
+        },
+        "fallingLeaves": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "fallSpeed": 0.4,
+            "size": 0.5,
+            "leafType": "Mixed",
+            "shape": "Dot"
+          }
+        },
+        "ssao": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.4,
+            "radius": 0.4,
+            "power": 1.5,
+            "quality": "High"
+          }
+        },
+        "bloom": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.15,
+            "threshold": 0.1,
+            "scatter": 0.2,
+            "highlights": 0,
+            "tint": "#ffe7cc"
+          }
+        },
+        "filmLook": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "look": "DPX",
+            "strength": 0.55
+          }
+        },
+        "drama": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.3
+          }
+        },
+        "letterbox": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "ratio": 2.19
+          }
+        },
+        "vignette": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.8,
+            "smoothness": 0.6
+          }
+        },
+        "grain": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.72,
+            "speed": 10
+          }
+        },
+        "chromatic": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.3
+          }
+        },
+        "tonemap": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Neutral"
+          }
+        },
+        "colorAdjust": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "exposure": -0.1,
+            "whites": 0.1,
+            "blacks": 0,
+            "contrast": 0.04,
+            "saturation": -0.28,
+            "vibrance": 0.5
+          }
+        },
+        "whiteBalance": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "warmth": -0.14,
+            "tint": -0.68
+          }
+        },
+        "adaptive": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "strength": 0.35,
+            "speed": 9
+          }
+        },
+        "halftone": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.85,
+            "scale": 90,
+            "colour": 0
+          }
+        },
+        "cartoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.9,
+            "steps": 5,
+            "outline": 0.5
+          }
+        },
+        "scanlines": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.5,
+            "count": 400,
+            "grille": 0
+          }
+        },
+        "pixelate": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 1,
+            "size": 140,
+            "levels": 1
+          }
+        },
+        "birds": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "altitude": 1,
+            "speed": 1
+          }
+        },
+        "butterflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "bees": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "clouds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "coverage": 0.4,
+            "density": 0.5,
+            "speed": 0.3,
+            "height": 0.5,
+            "thickness": 0.5,
+            "softness": 0.5,
+            "tint": "#FFFFFF",
+            "sunGlow": 0.5,
+            "resolution": "Full",
+            "shadowStrength": 0,
+            "shadowSoftness": 0.5
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Horror",
+    "description": "Cold and close. Heavy film grain, chromatic aberration, drama and atmospheric haze, with the lighting effects switched off so the dark stays dark.",
+    "settings": {
+      "configVersion": 10,
+      "master": true,
+      "vrAll": true,
+      "effects": {
+        "fxaa": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "quality": 0.55
+          }
+        },
+        "sharpen": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.65
+          }
+        },
+        "motionBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.2
+          }
+        },
+        "dof": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "focusDistance": 27.5,
+            "strength": 0.5,
+            "bokehRadius": 17,
+            "autoFocus": 1,
+            "focusSpeed": 1,
+            "nearStrength": 0,
+            "bokehGamma": 2.2
+          }
+        },
+        "distanceBlur": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "startDistance": 31,
+            "endDistance": 66,
+            "maxBlur": 5
+          }
+        },
+        "ssgi": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "radius": 1.75,
+            "colorBleed": 0.15,
+            "sharpness": 0.5,
+            "quality": "Low",
+            "emitters": 1
+          }
+        },
+        "trueDarkness": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.6,
+            "reach": 12,
+            "floor": 0.12,
+            "enclosure": 0.55
+          }
+        },
+        "sunMoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "sunBrightness": 2,
+            "sunSize": 0.5,
+            "sunTint": "#FFE8C0",
+            "moonBrightness": 1.5,
+            "moonSize": 0.9,
+            "moonTint": "#BFD4FF",
+            "glowFalloff": 0.5,
+            "position": "Follow Game",
+            "timeOfDay": 10,
+            "sunIntensity": 1.7,
+            "sunWarmth": 0.1,
+            "ambientIntensity": 1.1,
+            "shadowStrength": 1,
+            "surfaceLight": 0.35,
+            "playerShade": 0.5
+          }
+        },
+        "nightSky": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "customSkies": "On",
+            "starDensity": 0.5,
+            "starBrightness": 0.9,
+            "starSize": 0.35,
+            "horizonWarmth": 0.5,
+            "replaceWhen": "Always",
+            "method": "Auto",
+            "strength": 1,
+            "backdropDistance": 300,
+            "dayZenith": "#165BFE",
+            "dayHorizon": "#9CC8EE",
+            "daySaturation": 1.15,
+            "dayHue": 0.5,
+            "cloudCoverage": 0.55,
+            "cloudDensity": 1,
+            "cloudSpeed": 1,
+            "cloudHeight": 0.7,
+            "cloudThickness": 1,
+            "cloudSoftness": 1,
+            "cloudTint": "#FFFFFF",
+            "cloudSunGlow": 0.5,
+            "cloudShadowStrength": 0,
+            "cloudShadowSoftness": 0.5,
+            "cloudResolution": "Full"
+          }
+        },
+        "sunlight": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.05,
+            "rayRelief": 0.7,
+            "reach": 41,
+            "density": 0.15,
+            "warmth": 0.65,
+            "clarity": 0.35,
+            "rayThickness": 0.5,
+            "rayShimmer": 0,
+            "rayAngle": 0,
+            "sideGlow": 0.5,
+            "quality": "Medium"
+          }
+        },
+        "lensFlare": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Both",
+            "intensity": 0.45,
+            "streakLength": 0.5,
+            "streakCount": 12,
+            "dispersion": 0.35,
+            "ghostStrength": 0.35,
+            "shimmer": 0.3,
+            "coverEase": 3
+          }
+        },
+        "ssr": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Always",
+            "intensity": 0.15,
+            "maxDistance": 7,
+            "quality": "High",
+            "blur": 0,
+            "surfaceAwareness": 0,
+            "metalSharpness": 1
+          }
+        },
+        "lumaRain": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "fallSpeed": 1,
+            "dropSize": 1,
+            "wind": 0.2,
+            "storm": "Off",
+            "lightning": 1,
+            "lightningSpeed": 1,
+            "lightningRandomness": 0.5
+          }
+        },
+        "haze": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.78,
+            "startDistance": 0,
+            "heightFalloff": 0.2,
+            "sunScatter": 0.5,
+            "wispiness": 0,
+            "skyVeil": 0.25,
+            "maxBrightness": 0.6,
+            "tint": "#1F0000"
+          }
+        },
+        "underwater": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "distortion": 0.5,
+            "blurAmount": 0.4,
+            "fogDensity": 0.55,
+            "caustics": 0.55
+          }
+        },
+        "dustMotes": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1.65,
+            "size": 0.8,
+            "driftSpeed": 0.7,
+            "brightness": 0.2,
+            "shape": "Dot"
+          }
+        },
+        "fireflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.4,
+            "brightness": 0.6,
+            "wanderSpeed": 0.35,
+            "shape": "Dot"
+          }
+        },
+        "embers": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "riseSpeed": 0.5,
+            "brightness": 0.7,
+            "glow": 0.5,
+            "shape": "Dot"
+          }
+        },
+        "fallingLeaves": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "fallSpeed": 0.4,
+            "size": 0.5,
+            "leafType": "Mixed",
+            "shape": "Dot"
+          }
+        },
+        "ssao": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.4,
+            "radius": 0.4,
+            "power": 1.5,
+            "quality": "High"
+          }
+        },
+        "bloom": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.15,
+            "threshold": 0.1,
+            "scatter": 0.2,
+            "highlights": 0,
+            "tint": "#ffe7cc"
+          }
+        },
+        "filmLook": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "look": "Technicolor",
+            "strength": 0.65
+          }
+        },
+        "drama": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.45
+          }
+        },
+        "letterbox": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "ratio": 2.19
+          }
+        },
+        "vignette": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.8,
+            "smoothness": 0.6
+          }
+        },
+        "grain": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "speed": 9
+          }
+        },
+        "chromatic": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.55
+          }
+        },
+        "tonemap": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Neutral"
+          }
+        },
+        "colorAdjust": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "exposure": 0.3,
+            "whites": 0.98,
+            "blacks": -0.02,
+            "contrast": 0.22,
+            "saturation": -0.34,
+            "vibrance": 0.4
+          }
+        },
+        "whiteBalance": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "warmth": -0.14,
+            "tint": -0.68
+          }
+        },
+        "adaptive": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "strength": 0.35,
+            "speed": 9
+          }
+        },
+        "halftone": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.85,
+            "scale": 90,
+            "colour": 0
+          }
+        },
+        "cartoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.9,
+            "steps": 5,
+            "outline": 0.5
+          }
+        },
+        "scanlines": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.5,
+            "count": 400,
+            "grille": 0
+          }
+        },
+        "pixelate": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 1,
+            "size": 140,
+            "levels": 1
+          }
+        },
+        "birds": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "altitude": 1,
+            "speed": 1
+          }
+        },
+        "butterflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "bees": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "clouds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "coverage": 0.4,
+            "density": 0.5,
+            "speed": 0.3,
+            "height": 0.5,
+            "thickness": 0.5,
+            "softness": 0.5,
+            "tint": "#FFFFFF",
+            "sunGlow": 0.5,
+            "resolution": "Full",
+            "shadowStrength": 0,
+            "shadowSoftness": 0.5
+          }
+        }
+      }
+    }
+  },
+  {
+    "name": "Chronos",
+    "description": "Night, turned up. Ray-traced lighting, a burning sun, haze, lens flare and the full set of creatures - birds, butterflies and bees.",
+    "settings": {
+      "configVersion": 10,
+      "master": true,
+      "vrAll": true,
+      "effects": {
+        "fxaa": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "quality": 1
+          }
+        },
+        "sharpen": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.15
+          }
+        },
+        "motionBlur": {
+          "enabled": true,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "amount": 0.45
+          }
+        },
+        "dof": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "focusDistance": 0.5,
+            "strength": 0.2,
+            "bokehRadius": 7,
+            "autoFocus": 1,
+            "focusSpeed": 0.2,
+            "nearStrength": 0,
+            "bokehGamma": 3.15
+          }
+        },
+        "distanceBlur": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "startDistance": 15,
+            "endDistance": 60,
+            "maxBlur": 10
+          }
+        },
+        "ssgi": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "radius": 7.75,
+            "colorBleed": 1,
+            "sharpness": 1,
+            "quality": "Low",
+            "emitters": 4
+          }
+        },
+        "trueDarkness": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.55,
+            "reach": 12,
+            "floor": 0,
+            "enclosure": 0.55
+          }
+        },
+        "sunMoon": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "sunBrightness": 5.9,
+            "sunSize": 0.15,
+            "sunTint": "#FFE8C0",
+            "moonBrightness": 1.1,
+            "moonSize": 0.5,
+            "moonTint": "#BFD4FF",
+            "glowFalloff": 1,
+            "position": "Follow Game",
+            "timeOfDay": 0,
+            "sunIntensity": 1.25,
+            "sunWarmth": 0.1,
+            "ambientIntensity": 1.45,
+            "shadowStrength": 0.8,
+            "surfaceLight": 1,
+            "playerShade": 1
+          }
+        },
+        "nightSky": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "customSkies": "On",
+            "starDensity": 1,
+            "starBrightness": 0.4,
+            "starSize": 0.5,
+            "horizonWarmth": 0.85,
+            "replaceWhen": "Always",
+            "method": "Auto",
+            "strength": 1,
+            "backdropDistance": 50,
+            "dayZenith": "#0040FF",
+            "dayHorizon": "#000000",
+            "daySaturation": 2,
+            "dayHue": 0.5,
+            "cloudCoverage": 0.65,
+            "cloudDensity": 0.5,
+            "cloudSpeed": 0.9,
+            "cloudHeight": 0,
+            "cloudThickness": 1,
+            "cloudSoftness": 0.65,
+            "cloudTint": "#ffffff",
+            "cloudSunGlow": 1,
+            "cloudShadowStrength": 0,
+            "cloudShadowSoftness": 0.5,
+            "cloudResolution": "Full"
+          }
+        },
+        "sunlight": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 8,
+            "rayRelief": 0.85,
+            "reach": 495,
+            "density": 0,
+            "warmth": 1,
+            "clarity": 0,
+            "rayThickness": 1,
+            "rayShimmer": 1,
+            "rayAngle": 0,
+            "sideGlow": 0.25,
+            "quality": "High"
+          }
+        },
+        "lensFlare": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Both",
+            "intensity": 0.3,
+            "streakLength": 0.35,
+            "streakCount": 10,
+            "dispersion": 1,
+            "ghostStrength": 0.55,
+            "shimmer": 0.6,
+            "coverEase": 3
+          }
+        },
+        "ssr": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "Always",
+            "intensity": 1,
+            "maxDistance": 100,
+            "quality": "Medium",
+            "blur": 0,
+            "surfaceAwareness": 1,
+            "metalSharpness": 0
+          }
+        },
+        "lumaRain": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1,
+            "fallSpeed": 1,
+            "dropSize": 1,
+            "wind": 0.2,
+            "storm": "Off",
+            "lightning": 1,
+            "lightningSpeed": 1,
+            "lightningRandomness": 0.5
+          }
+        },
+        "haze": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.06,
+            "startDistance": 17,
+            "heightFalloff": 0.25,
+            "sunScatter": 0.5,
+            "wispiness": 1,
+            "skyVeil": 0.5,
+            "maxBrightness": 0.55,
+            "tint": "#FFFFFF"
+          }
+        },
+        "underwater": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "distortion": 1,
+            "blurAmount": 0,
+            "fogDensity": 0.1,
+            "caustics": 0.25
+          }
+        },
+        "dustMotes": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 3,
+            "size": 0.9,
+            "driftSpeed": 0.5,
+            "brightness": 1,
+            "shape": "Dot"
+          }
+        },
+        "fireflies": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.15,
+            "brightness": 0.55,
+            "wanderSpeed": 0.2,
+            "shape": "Dot"
+          }
+        },
+        "embers": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "riseSpeed": 0.5,
+            "brightness": 0.7,
+            "glow": 0.5,
+            "shape": "Dot"
+          }
+        },
+        "fallingLeaves": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 0.5,
+            "fallSpeed": 0.4,
+            "size": 0.25,
+            "leafType": "Mixed",
+            "shape": "Dot"
+          }
+        },
+        "ssao": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 1.15,
+            "radius": 0.3,
+            "power": 2.3,
+            "quality": "High"
+          }
+        },
+        "bloom": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.2,
+            "threshold": 0,
+            "scatter": 0.7,
+            "highlights": 0.7,
+            "tint": "#ffe7cc"
+          }
+        },
+        "filmLook": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "look": "Technicolor",
+            "strength": 0.6
+          }
+        },
+        "drama": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.05
+          }
+        },
+        "letterbox": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "ratio": 2.19
+          }
+        },
+        "vignette": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "intensity": 0.6,
+            "smoothness": 0.6
+          }
+        },
+        "grain": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.54,
+            "speed": 24
+          }
+        },
+        "chromatic": {
+          "enabled": false,
+          "vr": false,
+          "desktop": true,
+          "params": {
+            "intensity": 0.1
+          }
+        },
+        "tonemap": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "mode": "ACES"
+          }
+        },
+        "colorAdjust": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "exposure": 0.6,
+            "whites": 0.36,
+            "blacks": 0,
+            "contrast": 0.1,
+            "saturation": -0.16,
+            "vibrance": 0.52
+          }
+        },
+        "whiteBalance": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "warmth": 0,
+            "tint": 0
+          }
+        },
+        "adaptive": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "strength": 0.7,
+            "speed": 4
+          }
+        },
+        "halftone": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.85,
+            "scale": 90,
+            "colour": 0
+          }
+        },
+        "cartoon": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.9,
+            "steps": 5,
+            "outline": 0.5
+          }
+        },
+        "scanlines": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 0.5,
+            "count": 400,
+            "grille": 0
+          }
+        },
+        "pixelate": {
+          "enabled": false,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "amount": 1,
+            "size": 140,
+            "levels": 1
+          }
+        },
+        "birds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 1,
+            "size": 1,
+            "altitude": 1,
+            "speed": 1
+          }
+        },
+        "butterflies": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 2,
+            "size": 3,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "bees": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "density": 2,
+            "size": 1,
+            "height": 1,
+            "speed": 1
+          }
+        },
+        "clouds": {
+          "enabled": true,
+          "vr": true,
+          "desktop": true,
+          "params": {
+            "coverage": 0.4,
+            "density": 0.5,
+            "speed": 0.3,
+            "height": 0.5,
+            "thickness": 0.5,
+            "softness": 0.5,
+            "tint": "#FFFFFF",
+            "sunGlow": 0.5,
+            "resolution": "Full",
+            "shadowStrength": 0,
+            "shadowSoftness": 0.5
+          }
+        }
+      }
+    }
+  }
+]
