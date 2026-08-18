@@ -1,0 +1,24 @@
+{
+  "name": "gorilla-tag-mod-manager",
+  "version": "1.0.7",
+  "description": "Pre-launch mod toggler for Gorilla Tag on SteamVR",
+  "main": "electron/main.js",
+  "author": "Gorilla Tag Mod Manager",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/electron": "^7.13.0",
+    "@sentry/node": "^10.52.0",
+    "@supabase/supabase-js": "^2.103.3",
+    "@tabler/icons-react": "^3.44.0",
+    "@vercel/analytics": "^2.0.1",
+    "adm-zip": "^0.5.17",
+    "discord-rpc": "^4.0.1",
+    "electron-updater": "^6.8.3",
+    "framer-motion": "^11.3.8",
+    "jose": "^6.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "stripe": "^17.7.0"
+  }
+}

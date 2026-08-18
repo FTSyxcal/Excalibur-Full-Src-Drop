@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "updated": "2026-07-30",
+  "bepinex_mods": [
+    {
+      "name": "BepInEx",
+      "author": "BepInEx",
+      "version": "5.4.23.5",
+      "description": "The mod framework that powers all BepInEx mods. Install this first if you don't have it.",
+      "group": "Core",
+      "gitPath": "BepInEx/BepInEx",
+      "downloadUrl": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.5/BepInEx_win_x64_5.4.23.5.zip",
+      "dependencies": [],
+      "tags": ["required"]
+    },
+    {
+      "name": "Utilla",
+      "author": "legoandmars, dev, bingus",
+      "version": "1.7.1",
+      "description": "Core utility library required by most Gorilla Tag mods.",
+      "group": "Core",
+      "gitPath": "sirkingbinx/Utilla",
+      "downloadUrl": "https://github.com/sirkingbinx/Utilla/releases/latest/download/Utilla.dll",
+      "dependencies": [],
+      "tags": ["required"]
+    },
+    {
+      "name": "HoneyLib",
+      "author": "Buzz",
+      "version": "1.1.5",
+      "description": "A general-purpose utility library for Gorilla Tag mods.",
+      "group": "Libraries",
+      "gitPath": "BzzzThe18th/HoneyLib",
+      "downloadUrl": "https://github.com/BzzzThe18th/HoneyLib/releases/latest/download/HoneyLib.dll",
+      "dependencies": []
+    },
+    {
+      "name": "MonkeLib",
+      "author": "pl2w",
+      "version": "1.0.0",
+      "description": "Shared library for Gorilla Tag mods.",
+      "group": "Libraries",
+      "gitPath": "pl2w/MonkeLib",
+      "downloadUrl": "https://github.com/pl2w/MonkeLib/releases/latest/download/MonkeLib.dll",
+      "dependencies": []
+    },
+    {
+      "name": "Several Bees",
+      "author": "Sev",
+      "version": "2.5.4",
+      "description": "Utility library used by Gorilla Optimizer and other mods.",
+      "group": "Libraries",
+      "gitPath": "sevvy-wevvy/Several-Bees",
+      "downloadUrl": "https://github.com/sevvy-wevvy/Several-Bees/releases/latest/download/SeveralBees-Gtag.dll",
+      "dependencies": []
+    },
+    {
+      "name": "Bark",
+      "author": "KyleTheScientist & SSakuraa",
+      "version": "3.0.0",
+      "description": "Popular gameplay mod with various fun mechanics.",
+      "group": "Gameplay",
+      "gitPath": "SakuraaDevelopment/Bark-v3",
+      "downloadUrl": "https://github.com/SakuraaDevelopment/Bark-v3/releases/latest/download/Bark.dll",
+      "dependencies": ["Utilla"]
+    },
+    {
+      "name": "GorillaTrials",
+      "author": "lapis",
+      "version": "1.5.0",
+      "description": "A Gorilla Tag mod with challenges and trials.",
+      "group": "Gameplay",
+      "gitPath": "LapisGit/GorillaTrials",
+      "downloadUrl": "https://github.com/LapisGit/GorillaTrials/releases/latest/download/GorillaTrials.dll",
+      "dependencies": ["Utilla"]
+    },
+    {
+      "name": "Gorilla Optimizer",
+      "author": "Sev",
+      "version": "1.2.0",
+      "description": "Performance optimization tweaks for Gorilla Tag.",
+      "group": "Tweaks",
+      "gitPath": "sevvy-wevvy/Gorilla-Optimizer",
+      "downloadUrl": "https://github.com/sevvy-wevvy/Gorilla-Optimizer/releases/latest/download/GorillaOptimizer.dll",
+      "dependencies": ["Several Bees"]
+    },
+    {
+      "name": "NoForestBarrier",
+      "author": "Silvaz",
+      "version": "1.0.1",
+      "description": "Removes the forest area barrier so you can explore freely.",
+      "group": "Tweaks",
+      "gitPath": "SilvazWasTaken/NoForestBarrier",
+      "downloadUrl": "https://github.com/SilvazWasTaken/NoForestBarrier/releases/latest/download/NoForestBarrier.dll",
+      "dependencies": ["Utilla"]
+    },
+    {
+      "name": "OculusReportMenu",
+      "author": "bingus",
+      "version": "2.4.0",
+      "description": "Restores the Oculus report menu that's missing in recent versions.",
+      "group": "Tweaks",
+      "gitPath": "sirkingbinx/OculusReportMenu",
+      "downloadUrl": "https://github.com/sirkingbinx/OculusReportMenu/releases/latest/download/OculusReportMenu.BepInEx.dll",
+      "dependencies": []
+    },
+    {
+      "name": "BingusNametags++",
+      "author": "bingus",
+      "version": "1.6.3",
+      "description": "Enhanced nametags with extra customisation options.",
+      "group": "Cosmetic",
+      "gitPath": "sirkingbinx/BingusNametagsPlusPlus",
+      "downloadUrl": "https://github.com/sirkingbinx/BingusNametagsPlusPlus/releases/latest/download/BingusNametagsPlusPlus.dll",
+      "dependencies": []
+    },
+    {
+      "name": "GorillaComputer",
+      "author": "struuct",
+      "version": "1.0.0",
+      "description": "Replaces the in-game computer with an overhauled custom version with new features and tweaks.",
+      "group": "Tweaks",
+      "gitPath": "struuct/GorillaComputer",
+      "downloadUrl": "https://github.com/struuct/GorillaComputer/releases/latest/download/GorillaComputer.dll",
+      "dependencies": []
+    },
+    {
+      "name": "CosmeticNames",
+      "author": "struuct",
+      "version": "1.0.0",
+      "description": "Shows the name of each cosmetic above its model in the wardrobe.",
+      "group": "Tweaks",
+      "gitPath": "struuct/CosmeticNames",
+      "downloadUrl": "https://github.com/struuct/CosmeticNames/releases/latest/download/CosmeticNames.dll",
+      "dependencies": []
+    },
+    {
+      "name": "GorillaAcrobatics",
+      "author": "codyiscoder",
+      "version": "1.0.0",
+      "description": "Rotate your whole body to pull off flips, spins and other tricks. Works in modded lobbies only.",
+      "group": "Gameplay",
+      "gitPath": "codyiscoder/GorillaAcrobatics",
+      "downloadUrl": "https://github.com/codyiscoder/GorillaAcrobatics/releases/latest/download/GorillaAcrobatics.dll",
+      "dependencies": []
+    },
+    {
+      "name": "MonkeFrames",
+      "author": "sirkingbinx",
+      "version": "1.1",
+      "description": "Keyframe-based camera animation tool for recording cinematic shots in Gorilla Tag.",
+      "group": "Tweaks",
+      "gitPath": "sirkingbinx/MonkeFrames",
+      "downloadUrl": "https://github.com/sirkingbinx/MonkeFrames/releases/latest/download/MonkeFrames.BepInEx.zip",
+      "dependencies": []
+    },
+    {
+      "name": "GorillaTextureLoader",
+      "author": "Crafterbot",
+      "version": "2.1.1",
+      "description": "Loads custom texture packs to reskin surfaces around Gorilla Tag.",
+      "group": "Cosmetic",
+      "downloadUrl": "https://git.crafterbot.com/Crafterbot/GorillaTextureLoader/releases/download/2.1.1/GorillaTextureLoader.zip",
+      "extractTo": "BepInEx/plugins/GorillaTextureLoader",
+      "avatarUrl": "https://git.crafterbot.com/avatars/777554e20e47aeb21bf190ad117706fc90aff2b01e80a34bd53090c099f12eb1?size=512",
+      "dependencies": []
+    }
+  ]
+}
